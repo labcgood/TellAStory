@@ -13,6 +13,7 @@
 		0D1600A42B468BC100DD0FDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D1600A22B468BC100DD0FDA /* Main.storyboard */; };
 		0D1600A62B468BC200DD0FDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D1600A52B468BC200DD0FDA /* Assets.xcassets */; };
 		0D1600A92B468BC200DD0FDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D1600A72B468BC200DD0FDA /* LaunchScreen.storyboard */; };
+		0D1600B12B469BDD00DD0FDA /* ChenYuluoyan-Thin-Monospaced.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D1600B02B469BDD00DD0FDA /* ChenYuluoyan-Thin-Monospaced.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		0D1600A52B468BC200DD0FDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0D1600A82B468BC200DD0FDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0D1600AA2B468BC200DD0FDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D1600B02B469BDD00DD0FDA /* ChenYuluoyan-Thin-Monospaced.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ChenYuluoyan-Thin-Monospaced.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		0D16009B2B468BC100DD0FDA /* TellAStory */ = {
 			isa = PBXGroup;
 			children = (
+				0D1600B02B469BDD00DD0FDA /* ChenYuluoyan-Thin-Monospaced.ttf */,
 				0D16009C2B468BC100DD0FDA /* AppDelegate.swift */,
 				0D16009E2B468BC100DD0FDA /* SceneDelegate.swift */,
 				0D1600A02B468BC100DD0FDA /* ViewController.swift */,
@@ -125,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D1600B12B469BDD00DD0FDA /* ChenYuluoyan-Thin-Monospaced.ttf in Resources */,
 				0D1600A92B468BC200DD0FDA /* LaunchScreen.storyboard in Resources */,
 				0D1600A62B468BC200DD0FDA /* Assets.xcassets in Resources */,
 				0D1600A42B468BC100DD0FDA /* Main.storyboard in Resources */,
@@ -292,8 +296,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FUY7Q7WR79;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TellAStory/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "海底冒險";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -319,8 +325,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FUY7Q7WR79;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TellAStory/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "海底冒險";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
